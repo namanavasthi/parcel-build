@@ -1,0 +1,16 @@
+{
+  "name": "ui.frontend",
+  "version": "1.0.0",
+  "description": "Parcel based npm build system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./**/main/entry.js ./**/components/**/entry.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
