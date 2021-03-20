@@ -4,13 +4,15 @@
   "description": "Parcel based npm build system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./**/main/entry.js ./**/components/**/entry.js"
+    "prebuild": "shx rm -rf dist/*",
+    "dev": "npm run prebuild && parcel ./**/main/sample.html ./**/components/**/sample.html",
+    "prod": "npm run prebuild && parcel build ./**/main/entry.js ./**/components/**/entry.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "shx": "^0.3.3"
   }
 }

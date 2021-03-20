@@ -2,14 +2,14 @@
 
 ## SETUP
 
-- setup directory structure
-- setup sample files
+- setup directory structure ✅
+- setup sample files ✅
 
 ## JS and CSS
 
-- js and css basic builds
-- build for local dev
-- build for prod
+- js and css basic builds ✅
+- build for local dev ✅
+- build for prod ✅
 
 ## VENDORS
 
@@ -17,6 +17,8 @@
 - setup vendor includes and builds
 
 ## DYNAMIC IMPORTS
+
+- support dynamic imports ❌ -> currently doesn't keep relative paths to dynamic imports :/
 
 ## TS AND SCSS
 
